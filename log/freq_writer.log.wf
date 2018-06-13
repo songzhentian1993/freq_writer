@@ -1,0 +1,119 @@
+WARNING: 06-12 20:46:14: conn.py:1164 * 1336 socket.inet_pton not available on this platform. consider `pip install win_inet_pton`
+WARNING: 06-12 20:46:14: conn.py:1164 * 1336 socket.inet_pton not available on this platform. consider `pip install win_inet_pton`
+WARNING: 06-12 20:46:14: conn.py:1164 * 1336 socket.inet_pton not available on this platform. consider `pip install win_inet_pton`
+ERROR: 06-12 20:47:16: freq_writer.py:64 * 11712 drop_create_table: Fail to connect MySQLdb, [(2003, "Can't connect to MySQL server on 'localhost' (10061)")].
+ERROR: 06-12 20:47:16: log_utils.py:48 * 11712 local variable 'db' referenced before assignment
+Traceback (most recent call last):
+  File "freq_writer.py", line 574, in dump_thread
+    flag = g_memcache.dump(prefix, file_name)
+  File "freq_writer.py", line 116, in dump
+    drop_create_table()
+  File "freq_writer.py", line 66, in drop_create_table
+    cursor = db.cursor()
+UnboundLocalError: local variable 'db' referenced before assignment
+ERROR: 06-12 20:47:22: freq_writer.py:64 * 11712 drop_create_table: Fail to connect MySQLdb, [(2003, "Can't connect to MySQL server on 'localhost' (10061)")].
+ERROR: 06-12 20:47:22: log_utils.py:48 * 11712 local variable 'db' referenced before assignment
+Traceback (most recent call last):
+  File "freq_writer.py", line 574, in dump_thread
+    flag = g_memcache.dump(prefix, file_name)
+  File "freq_writer.py", line 116, in dump
+    drop_create_table()
+  File "freq_writer.py", line 66, in drop_create_table
+    cursor = db.cursor()
+UnboundLocalError: local variable 'db' referenced before assignment
+ERROR: 06-12 20:47:28: freq_writer.py:64 * 11712 drop_create_table: Fail to connect MySQLdb, [(2003, "Can't connect to MySQL server on 'localhost' (10061)")].
+ERROR: 06-12 20:47:28: log_utils.py:48 * 11712 local variable 'db' referenced before assignment
+Traceback (most recent call last):
+  File "freq_writer.py", line 574, in dump_thread
+    flag = g_memcache.dump(prefix, file_name)
+  File "freq_writer.py", line 116, in dump
+    drop_create_table()
+  File "freq_writer.py", line 66, in drop_create_table
+    cursor = db.cursor()
+UnboundLocalError: local variable 'db' referenced before assignment
+ERROR: 06-12 20:47:34: freq_writer.py:64 * 11712 drop_create_table: Fail to connect MySQLdb, [(2003, "Can't connect to MySQL server on 'localhost' (10061)")].
+ERROR: 06-12 20:47:34: log_utils.py:48 * 11712 local variable 'db' referenced before assignment
+Traceback (most recent call last):
+  File "freq_writer.py", line 574, in dump_thread
+    flag = g_memcache.dump(prefix, file_name)
+  File "freq_writer.py", line 116, in dump
+    drop_create_table()
+  File "freq_writer.py", line 66, in drop_create_table
+    cursor = db.cursor()
+UnboundLocalError: local variable 'db' referenced before assignment
+ERROR: 06-12 20:47:40: freq_writer.py:64 * 11712 drop_create_table: Fail to connect MySQLdb, [(2003, "Can't connect to MySQL server on 'localhost' (10061)")].
+ERROR: 06-12 20:47:40: log_utils.py:48 * 11712 local variable 'db' referenced before assignment
+Traceback (most recent call last):
+  File "freq_writer.py", line 574, in dump_thread
+    flag = g_memcache.dump(prefix, file_name)
+  File "freq_writer.py", line 116, in dump
+    drop_create_table()
+  File "freq_writer.py", line 66, in drop_create_table
+    cursor = db.cursor()
+UnboundLocalError: local variable 'db' referenced before assignment
+ERROR: 06-12 20:47:46: freq_writer.py:64 * 11712 drop_create_table: Fail to connect MySQLdb, [(2003, "Can't connect to MySQL server on 'localhost' (10061)")].
+ERROR: 06-12 20:47:46: log_utils.py:48 * 11712 local variable 'db' referenced before assignment
+Traceback (most recent call last):
+  File "freq_writer.py", line 574, in dump_thread
+    flag = g_memcache.dump(prefix, file_name)
+  File "freq_writer.py", line 116, in dump
+    drop_create_table()
+  File "freq_writer.py", line 66, in drop_create_table
+    cursor = db.cursor()
+UnboundLocalError: local variable 'db' referenced before assignment
+ERROR: 06-12 20:47:52: freq_writer.py:64 * 11712 drop_create_table: Fail to connect MySQLdb, [(2003, "Can't connect to MySQL server on 'localhost' (10061)")].
+ERROR: 06-12 20:47:52: log_utils.py:48 * 11712 local variable 'db' referenced before assignment
+Traceback (most recent call last):
+  File "freq_writer.py", line 574, in dump_thread
+    flag = g_memcache.dump(prefix, file_name)
+  File "freq_writer.py", line 116, in dump
+    drop_create_table()
+  File "freq_writer.py", line 66, in drop_create_table
+    cursor = db.cursor()
+UnboundLocalError: local variable 'db' referenced before assignment
+ERROR: 06-12 20:47:58: freq_writer.py:64 * 11712 drop_create_table: Fail to connect MySQLdb, [(2003, "Can't connect to MySQL server on 'localhost' (10061)")].
+ERROR: 06-12 20:47:58: log_utils.py:48 * 11712 local variable 'db' referenced before assignment
+Traceback (most recent call last):
+  File "freq_writer.py", line 574, in dump_thread
+    flag = g_memcache.dump(prefix, file_name)
+  File "freq_writer.py", line 116, in dump
+    drop_create_table()
+  File "freq_writer.py", line 66, in drop_create_table
+    cursor = db.cursor()
+UnboundLocalError: local variable 'db' referenced before assignment
+ERROR: 06-12 20:48:04: freq_writer.py:64 * 11712 drop_create_table: Fail to connect MySQLdb, [(2003, "Can't connect to MySQL server on 'localhost' (10061)")].
+ERROR: 06-12 20:48:04: log_utils.py:48 * 11712 local variable 'db' referenced before assignment
+Traceback (most recent call last):
+  File "freq_writer.py", line 574, in dump_thread
+    flag = g_memcache.dump(prefix, file_name)
+  File "freq_writer.py", line 116, in dump
+    drop_create_table()
+  File "freq_writer.py", line 66, in drop_create_table
+    cursor = db.cursor()
+UnboundLocalError: local variable 'db' referenced before assignment
+ERROR: 06-12 20:48:10: freq_writer.py:64 * 11712 drop_create_table: Fail to connect MySQLdb, [(2003, "Can't connect to MySQL server on 'localhost' (10061)")].
+ERROR: 06-12 20:48:10: log_utils.py:48 * 11712 local variable 'db' referenced before assignment
+Traceback (most recent call last):
+  File "freq_writer.py", line 574, in dump_thread
+    flag = g_memcache.dump(prefix, file_name)
+  File "freq_writer.py", line 116, in dump
+    drop_create_table()
+  File "freq_writer.py", line 66, in drop_create_table
+    cursor = db.cursor()
+UnboundLocalError: local variable 'db' referenced before assignment
+ERROR: 06-12 20:48:16: freq_writer.py:64 * 11712 drop_create_table: Fail to connect MySQLdb, [(2003, "Can't connect to MySQL server on 'localhost' (10061)")].
+ERROR: 06-12 20:48:16: log_utils.py:48 * 11712 local variable 'db' referenced before assignment
+Traceback (most recent call last):
+  File "freq_writer.py", line 574, in dump_thread
+    flag = g_memcache.dump(prefix, file_name)
+  File "freq_writer.py", line 116, in dump
+    drop_create_table()
+  File "freq_writer.py", line 66, in drop_create_table
+    cursor = db.cursor()
+UnboundLocalError: local variable 'db' referenced before assignment
+CRITICAL: 06-12 20:48:17: log_utils.py:52 * 11972 fail to run
+CRITICAL: 06-12 20:48:17: log_utils.py:52 * 11972 [Errno 4] Interrupted function call
+Traceback (most recent call last):
+  File "freq_writer.py", line 648, in <module>
+    time.sleep(1)
+IOError: [Errno 4] Interrupted function call

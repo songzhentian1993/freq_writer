@@ -1,0 +1,13 @@
+WARNING: 05-29 12:22:11: conn.py:1164 * 3300 socket.inet_pton not available on this platform. consider `pip install win_inet_pton`
+WARNING: 05-29 12:22:11: conn.py:1164 * 3300 socket.inet_pton not available on this platform. consider `pip install win_inet_pton`
+WARNING: 05-29 12:22:11: conn.py:1164 * 3300 socket.inet_pton not available on this platform. consider `pip install win_inet_pton`
+ERROR: 05-29 12:27:16: conn.py:384 * 3300 Connection attempt to <BrokerConnection node_id=bootstrap host=10.1.11.23:9092 <connecting> [IPv4 ('10.1.11.23', 9092)]> timed out
+ERROR: 05-29 12:32:21: conn.py:384 * 3300 Connection attempt to <BrokerConnection node_id=bootstrap host=10.1.11.21:9092 <connecting> [IPv4 ('10.1.11.21', 9092)]> timed out
+ERROR: 05-29 12:37:26: conn.py:384 * 3300 Connection attempt to <BrokerConnection node_id=bootstrap host=10.1.11.22:9092 <connecting> [IPv4 ('10.1.11.22', 9092)]> timed out
+ERROR: 05-29 12:37:26: client_async.py:270 * 3300 Unable to bootstrap from [('10.1.11.23', 9092, 0), ('10.1.11.21', 9092, 0), ('10.1.11.22', 9092, 0)]
+CRITICAL: 05-29 12:41:24: log_utils.py:52 * 4816 fail to run
+CRITICAL: 05-29 12:41:24: log_utils.py:52 * 4816 [Errno 4] Interrupted function call
+Traceback (most recent call last):
+  File "freq_writer.py", line 575, in <module>
+    time.sleep(1)
+IOError: [Errno 4] Interrupted function call

@@ -1,0 +1,46 @@
+INFO: 05-29 12:22:11: log_utils.py:40 * 5764 start dump thread
+INFO: 05-29 12:22:11: log_utils.py:40 * 4232 start clear thread
+INFO: 05-29 12:22:11: log_utils.py:40 * 3300 start compute thread
+WARNING: 05-29 12:22:11: conn.py:1164 * 3300 socket.inet_pton not available on this platform. consider `pip install win_inet_pton`
+WARNING: 05-29 12:22:11: conn.py:1164 * 3300 socket.inet_pton not available on this platform. consider `pip install win_inet_pton`
+WARNING: 05-29 12:22:11: conn.py:1164 * 3300 socket.inet_pton not available on this platform. consider `pip install win_inet_pton`
+INFO: 05-29 12:22:11: client_async.py:222 * 3300 Bootstrapping cluster metadata from [('10.1.11.23', 9092, 0), ('10.1.11.21', 9092, 0), ('10.1.11.22', 9092, 0)]
+INFO: 05-29 12:22:11: conn.py:346 * 3300 <BrokerConnection node_id=bootstrap host=10.1.11.23:9092 <connecting> [IPv4 ('10.1.11.23', 9092)]>: connecting to 10.1.11.23:9092 [('10.1.11.23', 9092) IPv4]
+INFO: 05-29 12:23:11: log_utils.py:40 * 5764 Cache Mem is being initialized!
+INFO: 05-29 12:24:11: log_utils.py:40 * 5764 Cache Mem is being initialized!
+INFO: 05-29 12:25:11: log_utils.py:40 * 5764 Cache Mem is being initialized!
+INFO: 05-29 12:26:11: log_utils.py:40 * 5764 Cache Mem is being initialized!
+INFO: 05-29 12:27:11: log_utils.py:40 * 5764 Cache Mem is being initialized!
+ERROR: 05-29 12:27:16: conn.py:384 * 3300 Connection attempt to <BrokerConnection node_id=bootstrap host=10.1.11.23:9092 <connecting> [IPv4 ('10.1.11.23', 9092)]> timed out
+INFO: 05-29 12:27:16: conn.py:706 * 3300 <BrokerConnection node_id=bootstrap host=10.1.11.23:9092 <connecting> [IPv4 ('10.1.11.23', 9092)]>: Closing connection. KafkaConnectionError: timeout
+INFO: 05-29 12:27:16: conn.py:346 * 3300 <BrokerConnection node_id=bootstrap host=10.1.11.21:9092 <connecting> [IPv4 ('10.1.11.21', 9092)]>: connecting to 10.1.11.21:9092 [('10.1.11.21', 9092) IPv4]
+INFO: 05-29 12:28:11: log_utils.py:40 * 5764 Cache Mem is being initialized!
+INFO: 05-29 12:29:11: log_utils.py:40 * 5764 Cache Mem is being initialized!
+INFO: 05-29 12:30:11: log_utils.py:40 * 5764 Cache Mem is being initialized!
+INFO: 05-29 12:31:11: log_utils.py:40 * 5764 Cache Mem is being initialized!
+INFO: 05-29 12:32:11: log_utils.py:40 * 5764 Cache Mem is being initialized!
+ERROR: 05-29 12:32:21: conn.py:384 * 3300 Connection attempt to <BrokerConnection node_id=bootstrap host=10.1.11.21:9092 <connecting> [IPv4 ('10.1.11.21', 9092)]> timed out
+INFO: 05-29 12:32:21: conn.py:706 * 3300 <BrokerConnection node_id=bootstrap host=10.1.11.21:9092 <connecting> [IPv4 ('10.1.11.21', 9092)]>: Closing connection. KafkaConnectionError: timeout
+INFO: 05-29 12:32:21: conn.py:346 * 3300 <BrokerConnection node_id=bootstrap host=10.1.11.22:9092 <connecting> [IPv4 ('10.1.11.22', 9092)]>: connecting to 10.1.11.22:9092 [('10.1.11.22', 9092) IPv4]
+INFO: 05-29 12:33:11: log_utils.py:40 * 5764 Cache Mem is being initialized!
+INFO: 05-29 12:34:11: log_utils.py:40 * 5764 Cache Mem is being initialized!
+INFO: 05-29 12:35:11: log_utils.py:40 * 5764 Cache Mem is being initialized!
+INFO: 05-29 12:36:11: log_utils.py:40 * 5764 Cache Mem is being initialized!
+INFO: 05-29 12:37:11: log_utils.py:40 * 5764 Cache Mem is being initialized!
+ERROR: 05-29 12:37:26: conn.py:384 * 3300 Connection attempt to <BrokerConnection node_id=bootstrap host=10.1.11.22:9092 <connecting> [IPv4 ('10.1.11.22', 9092)]> timed out
+INFO: 05-29 12:37:26: conn.py:706 * 3300 <BrokerConnection node_id=bootstrap host=10.1.11.22:9092 <connecting> [IPv4 ('10.1.11.22', 9092)]>: Closing connection. KafkaConnectionError: timeout
+ERROR: 05-29 12:37:26: client_async.py:270 * 3300 Unable to bootstrap from [('10.1.11.23', 9092, 0), ('10.1.11.21', 9092, 0), ('10.1.11.22', 9092, 0)]
+INFO: 05-29 12:38:11: log_utils.py:40 * 5764 Cache Mem is being initialized!
+INFO: 05-29 12:39:11: log_utils.py:40 * 5764 Cache Mem is being initialized!
+INFO: 05-29 12:40:11: log_utils.py:40 * 5764 Cache Mem is being initialized!
+INFO: 05-29 12:41:11: log_utils.py:40 * 5764 Cache Mem is being initialized!
+INFO: 05-29 12:41:24: log_utils.py:40 * 4816 exit signal received
+CRITICAL: 05-29 12:41:24: log_utils.py:52 * 4816 fail to run
+CRITICAL: 05-29 12:41:24: log_utils.py:52 * 4816 [Errno 4] Interrupted function call
+Traceback (most recent call last):
+  File "freq_writer.py", line 575, in <module>
+    time.sleep(1)
+IOError: [Errno 4] Interrupted function call
+INFO: 05-29 12:41:26: log_utils.py:40 * 5764 end dump thread
+INFO: 05-29 12:41:26: log_utils.py:40 * 4232 end clear thread
+INFO: 05-29 12:41:26: log_utils.py:40 * 4816 exit signal received

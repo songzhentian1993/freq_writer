@@ -1,0 +1,2 @@
+#!/bin/bash
+python /dsp/code/freq_writer/freq_writer.py

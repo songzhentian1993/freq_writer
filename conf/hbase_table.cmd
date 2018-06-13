@@ -1,0 +1,3 @@
+create 'dsp_frequency_campimp_cache', {NAME => 'cf', TTL => '172800', DATA_BLOCK_ENCODING => 'NONE', BLOOMFILTER => 'ROW', REPLICATION_SCOPE => '0', VERSIONS => '1', COMPRESSION => 'SNAPPY', MIN_VERSIONS => '0', KEEP_DELETED_CELLS => 'false', BLOCKSIZE => '655364', IN_MEMORY => 'false', BLOCKCACHE => 'true'}, {SPLITS => ['0','1','2','3','4','5','6','7','8','9']}
+create 'dsp_frequency_filter_cache', {NAME => 'cf', TTL => '86400', DATA_BLOCK_ENCODING => 'NONE', BLOOMFILTER => 'ROW', REPLICATION_SCOPE => '0', VERSIONS => '1', COMPRESSION => 'SNAPPY', MIN_VERSIONS => '0', KEEP_DELETED_CELLS => 'false', BLOCKSIZE => '655364', IN_MEMORY => 'false', BLOCKCACHE => 'true'}, {SPLITS => ['0','1','2','3','4','5','6','7','8','9']}
+

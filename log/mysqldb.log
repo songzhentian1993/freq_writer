@@ -1,0 +1,11 @@
+2018-06-12 20:47:16,088 - ERROR - drop_create_table: Fail to connect MySQLdb, [(2003, "Can't connect to MySQL server on 'localhost' (10061)")].
+2018-06-12 20:47:22,118 - ERROR - drop_create_table: Fail to connect MySQLdb, [(2003, "Can't connect to MySQL server on 'localhost' (10061)")].
+2018-06-12 20:47:28,134 - ERROR - drop_create_table: Fail to connect MySQLdb, [(2003, "Can't connect to MySQL server on 'localhost' (10061)")].
+2018-06-12 20:47:34,160 - ERROR - drop_create_table: Fail to connect MySQLdb, [(2003, "Can't connect to MySQL server on 'localhost' (10061)")].
+2018-06-12 20:47:40,188 - ERROR - drop_create_table: Fail to connect MySQLdb, [(2003, "Can't connect to MySQL server on 'localhost' (10061)")].
+2018-06-12 20:47:46,217 - ERROR - drop_create_table: Fail to connect MySQLdb, [(2003, "Can't connect to MySQL server on 'localhost' (10061)")].
+2018-06-12 20:47:52,256 - ERROR - drop_create_table: Fail to connect MySQLdb, [(2003, "Can't connect to MySQL server on 'localhost' (10061)")].
+2018-06-12 20:47:58,272 - ERROR - drop_create_table: Fail to connect MySQLdb, [(2003, "Can't connect to MySQL server on 'localhost' (10061)")].
+2018-06-12 20:48:04,293 - ERROR - drop_create_table: Fail to connect MySQLdb, [(2003, "Can't connect to MySQL server on 'localhost' (10061)")].
+2018-06-12 20:48:10,305 - ERROR - drop_create_table: Fail to connect MySQLdb, [(2003, "Can't connect to MySQL server on 'localhost' (10061)")].
+2018-06-12 20:48:16,309 - ERROR - drop_create_table: Fail to connect MySQLdb, [(2003, "Can't connect to MySQL server on 'localhost' (10061)")].

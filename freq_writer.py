@@ -112,7 +112,7 @@ class MemCache():
         self.camp_dict[day][key] = val
         return val
 
-    def dump(self, day, file_name, clear_thread_dump, flag=True):
+    def dump(self, day, file_name, dump_thread, flag=True):
         start_pos=13
         if not self.initflag:
             log_utils.i('Cache Mem is being initialized!')
@@ -123,7 +123,7 @@ class MemCache():
             return -1
         start = time.time()
         ofp = open(file_name, 'w')
-        if clear_thread_dump:
+        if dump_thread:
             drop_create_table()
         count = 0
         for key in self.camp_dict[day].keys():
@@ -132,7 +132,7 @@ class MemCache():
             #print '%s\t%s' %(key, str(val))
             #ofp.write("%s\t%s\n" % (key[start_pos:], str(val)))
             ofp.write("%s\t%s\n" % (keyv, str(val)))
-            if clear_thread_dump:
+            if dump_thread:
                 dump_mysql(keyv, str(val))
             count += 1
         end = time.time()
@@ -573,7 +573,7 @@ def dump_thread(interval, file_name):
                 sign_file.close()
 
                 prefix = current_day_str()
-                flag = g_memcache.dump(prefix, file_name, False)
+                flag = g_memcache.dump(prefix, file_name, True)
                 if flag == 0:
                     last_dump_time = time.time()
                     continue
@@ -618,7 +618,7 @@ def clear_thread():
             start_time = time.time()
             prefix = last_day_str()
             file_name = './data/frequency_data.txt.' + prefix
-            g_memcache.dump(prefix, file_name, True)
+            g_memcache.dump(prefix, file_name, False)
             g_memcache.clear(prefix)
             day_str = current
             log_utils.i("clear old data with prefix %s cost %d s" % (prefix, time.time() - start_time))
